@@ -1,0 +1,31 @@
+<h1>Write a Review</h1>
+<form action="/submit_review" method="post">
+  <label for="name">Your Name:</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Enter your name"
+    required
+  />
+
+  <label for="rating">Rating:</label>
+  <select id="rating" name="rating" required>
+    <option value="">Select a rating</option>
+    <option value="5"> 5 Stars</option>
+    <option value="4"> 4 Stars</option>
+    <option value="3"> 3 Stars</option>
+    <option value="2"> 2 Stars</option>
+    <option value="1"> 1 Stars</option>
+  </select>
+
+  <label for="review">Your Review:</label>
+  <textares
+    id="review"
+    name="review"
+    placeholder="Write your review here"
+    required
+  ></textares>
+
+  <button type="submit">Submit Review:</button>
+</form>
