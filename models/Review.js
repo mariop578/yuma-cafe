@@ -11,6 +11,10 @@ Review.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    item_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
     text: {
       type: DataTypes.STRING,
       allowNull: false,

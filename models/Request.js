@@ -11,6 +11,13 @@ Request.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    food_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        len: [1],
+      },
+    },
     text: {
       type: DataTypes.STRING,
       allowNull: false,
