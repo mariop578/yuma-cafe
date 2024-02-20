@@ -7,34 +7,34 @@ An API for a cafe shop to access menu items, customer reviews and customer menu 
 You can create and view Users, User Reviews and User menu requests.
 
 # USER
-/GET/https://ycafe-e3354edf270c.herokuapp.com/api/user
+* "/GET/https://ycafe-e3354edf270c.herokuapp.com/api/user"
 To see all Users.
-/GET/https://ycafe-e3354edf270c.herokuapp.com/api/user/"user_id"
+* "/GET/https://ycafe-e3354edf270c.herokuapp.com/api/user/"user_id""
 To find one user by id.
-/POST/https://ycafe-e3354edf270c.herokuapp.com/api/user
+* "/POST/https://ycafe-e3354edf270c.herokuapp.com/api/user"
 To create a new user.
-/POST/https://ycafe-e3354edf270c.herokuapp.com/api/user/login
+* "/POST/https://ycafe-e3354edf270c.herokuapp.com/api/user/login"
 To login as a user, may also get redirected here if session expires.
-/POST/https://ycafe-e3354edf270c.herokuapp.com/api/user/logout
+* "/POST/https://ycafe-e3354edf270c.herokuapp.com/api/user/logout"
 To logout as a user.
 
 # MENU
-/GET/https://ycafe-e3354edf270c.herokuapp.com/
+* "/GET/https://ycafe-e3354edf270c.herokuapp.com/"
 
 # REVIEWS
-/GET/https://ycafe-e3354edf270c.herokuapp.com/api/review
+* "/GET/https://ycafe-e3354edf270c.herokuapp.com/api/review"
 To see all Reviews
-/GET/https://ycafe-e3354edf270c.herokuapp.com/api/review/"review_id"
+* "/GET/https://ycafe-e3354edf270c.herokuapp.com/api/review/"review_id""
 To find a review by id.
-/POST/https://ycafe-e3354edf270c.herokuapp.com/api/review
+* "/POST/https://ycafe-e3354edf270c.herokuapp.com/api/review"
 To Create a new review. Must pass in a JSON obj with the attributes item_id = Integer, text = string and optional user_id: integer.
 
 # REQUESTS
-/GET/https://ycafe-e3354edf270c.herokuapp.com/api/request
+* "/GET/https://ycafe-e3354edf270c.herokuapp.com/api/request"
 To see all Requests.
-/GET/https://ycafe-e3354edf270c.herokuapp.com/api/request/"request_id"
+* "/GET/https://ycafe-e3354edf270c.herokuapp.com/api/request/"request_id""
 To find a request by id.
-/POST/https://ycafe-e3354edf270c.herokuapp.com/api/request
+* "/POST/https://ycafe-e3354edf270c.herokuapp.com/api/request"
 To Create a new menu request. Must pass in a JSON obj with the attributes food_name = Integer, text = string and optional user_id: integer.
 
 ## FUTURE DEV
