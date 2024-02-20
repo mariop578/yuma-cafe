@@ -1,1 +1,12 @@
-{}
+[
+  {
+    "food_name": "Pizza",
+    "text": "Please add pizza to the menu",
+    "user_id": 1
+  },
+  {
+    "food_name": "Tofu",
+    "text": "Me like grass",
+    "user_id": 2
+  }
+]

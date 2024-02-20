@@ -1,0 +1,14 @@
+[
+  {
+    "item_name": "vanilla_latte",
+    "category": "drink",
+    "text": "Espresso with 2% milk and a splash of vanilla syrup",
+    "price": 8
+  },
+  {
+    "item_name": "chocolate_chip_cookie",
+    "category": "food",
+    "text": "A fresh out of oven chocolate chip cookie",
+    "price": 3
+  }
+]

@@ -5,7 +5,7 @@ const reviewRoutes = require("./reviewR");
 const requestsRoutes = require("./requestsR");
 
 router.use("/user", userRoutes);
-router.use("/reviews", reviewRoutes);
-router.use("/requests", requestsRoutes);
+router.use("/review", reviewRoutes);
+router.use("/request", requestsRoutes);
 
 module.exports = router;

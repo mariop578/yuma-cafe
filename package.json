@@ -19,6 +19,8 @@
     "sequelize": "^6.36.0"
   },
   "devDependencies": {
-    "dotenv": "^16.4.1"
+    "connect-session-sequelize": "^7.1.7",
+    "dotenv": "^16.4.1",
+    "express-session": "^1.18.0"
   }
 }
